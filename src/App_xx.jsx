@@ -8,7 +8,7 @@ import BlogSupaPage2_xx from './pages/BlogSupaPage2_xx'
 
 import MidP1Page_xx from './pages/mid_xx/P1Page_xx'
 import MidP2Page_23 from './pages/mid_xx/P2Page_23'
-import MidP3Page_xx from './pages/mid_xx/P3Page_xx'
+import MidP3Page_23 from './pages/mid_xx/P3Page_23'
 
 const App_xx = () => {
   return (
@@ -23,7 +23,7 @@ const App_xx = () => {
       <Routes>
         <Route path='/mid_xx/p1_23' element={<MidP1Page_xx />} />
         <Route path='/mid_xx/p2_23' element={<MidP2Page_23 />} />
-        <Route path='/mid_xx/p3_23' element={<MidP3Page_xx />} />
+        <Route path='/mid_xx/p3_23' element={<MidP3Page_23 />} />
       </Routes>
     </BrowserRouter>
   )
